@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+/* SuccessMessage.css */
+.success-message-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+h3 {
+  padding: 25%;
+  font-size: 24px;
+  color: #007bff;
+}
+
+h1 {
+  color: #007bff;
+}
+
+p {
+  font-size: 18px;
+}
+
+.myButton{
+  background-color: rebeccapurple;
+  width: 25%;
+  padding: 5%;
+  margin-left: 18vh;
+  border-radius: 25%;
+}
+
+.btnSign{
+  margin-bottom: 3%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .success-message-container {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Add more media queries and styles as needed for different screen sizes */
